@@ -46,7 +46,7 @@
     <layer-tree-layer expanded="1" id="MGN_URB_MANZANA_90949f9b_a754_4736_81f4_e8ab989a8a08" source="./Caquetá/URBANO/MGN_URB_MANZANA.shp" checked="Qt::Unchecked" providerKey="ogr" name="MGN_URB_MANZANA">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" id="MGN_MPIO_POLITICO_2ff8ea78_ecb3_49f5_9e76_498d6503e8fb" source="./Caquetá/ADMINISTRATIVO/MGN_MPIO_POLITICO.shp" checked="Qt::Checked" providerKey="ogr" name="MGN_MPIO_POLITICO">
+    <layer-tree-layer expanded="1" id="MGN_MPIO_POLITICO_2ff8ea78_ecb3_49f5_9e76_498d6503e8fb" source="./Caquetá/ADMINISTRATIVO/MGN_MPIO_POLITICO.shp" checked="Qt::Unchecked" providerKey="ogr" name="MGN_MPIO_POLITICO">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" id="MGN_DPTO_POLITICO_7d3a37cc_2225_45b7_b49f_c75e88c9c1ac" source="./Caquetá/ADMINISTRATIVO/MGN_DPTO_POLITICO.shp" checked="Qt::Checked" providerKey="ogr" name="MGN_DPTO_POLITICO">
@@ -103,10 +103,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>800980.39933982351794839</xmin>
-      <ymin>277866.57854210364166647</ymin>
-      <xmax>1464940.77493110159412026</xmax>
-      <ymax>928754.24094711744692177</ymax>
+      <xmin>559273.35418903222307563</xmin>
+      <ymin>-482418.93793449806980789</ymin>
+      <xmax>3215114.85655414639040828</xmax>
+      <ymax>2121131.71168555784970522</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -169,9 +169,9 @@
         <legendlayerfile layerid="MGN_URB_MANZANA_90949f9b_a754_4736_81f4_e8ab989a8a08" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="MGN_MPIO_POLITICO">
+    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Unchecked" name="MGN_MPIO_POLITICO">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="MGN_MPIO_POLITICO_2ff8ea78_ecb3_49f5_9e76_498d6503e8fb" isInOverview="0" visible="1"/>
+        <legendlayerfile layerid="MGN_MPIO_POLITICO_2ff8ea78_ecb3_49f5_9e76_498d6503e8fb" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="MGN_DPTO_POLITICO">
@@ -203,7 +203,7 @@
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyMaxScale="1" minScale="0" type="vector" simplifyDrawingHints="1" simplifyDrawingTol="1" readOnly="0" maxScale="0" labelsEnabled="1" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyMaxScale="1" minScale="0" type="vector" simplifyDrawingHints="1" simplifyDrawingTol="1" readOnly="0" maxScale="0" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-81.73562055599990117</xmin>
         <ymin>-4.2294064658609658</ymin>
@@ -491,8 +491,8 @@
         <constraint field="Shape_Area" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{a98a187e-bc4f-4556-804d-cfe02ba3a5c3}"/>
-        <actionsetting capture="0" notificationMessage="" shortTitle="" id="{a98a187e-bc4f-4556-804d-cfe02ba3a5c3}" type="0" name="" action="" isEnabledOnlyWhenEditable="0" icon="">
+        <defaultAction key="Canvas" value="{417d3193-e6cf-4f06-b48e-3fb5beffd80c}"/>
+        <actionsetting capture="0" notificationMessage="" shortTitle="" id="{417d3193-e6cf-4f06-b48e-3fb5beffd80c}" type="0" name="" action="" isEnabledOnlyWhenEditable="0" icon="">
           <actionScope id="Feature"/>
           <actionScope id="Canvas"/>
           <actionScope id="Field"/>
@@ -2951,7 +2951,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyMaxScale="1" minScale="0" type="vector" simplifyDrawingHints="1" simplifyDrawingTol="1" readOnly="0" maxScale="0" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyMaxScale="1" minScale="0" type="vector" simplifyDrawingHints="1" simplifyDrawingTol="1" readOnly="0" maxScale="0" labelsEnabled="1" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-109.44611358642578125</xmin>
         <ymin>-58.4986114501953125</ymin>
@@ -3141,8 +3141,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="PAÍS" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{a32ad9c6-da79-466e-b9f7-4f25372b38f3}"/>
-        <actionsetting capture="0" notificationMessage="" shortTitle="" id="{a32ad9c6-da79-466e-b9f7-4f25372b38f3}" type="0" name="" action="" isEnabledOnlyWhenEditable="0" icon="">
+        <defaultAction key="Canvas" value="{c9717928-8242-4757-b63e-612a05da675b}"/>
+        <actionsetting capture="0" notificationMessage="" shortTitle="" id="{c9717928-8242-4757-b63e-612a05da675b}" type="0" name="" action="" isEnabledOnlyWhenEditable="0" icon="">
           <actionScope id="Feature"/>
           <actionScope id="Canvas"/>
           <actionScope id="Field"/>
@@ -3302,7 +3302,7 @@ def my_form_open(dialog, layer, feature):
       </renderer-v2>
       <labeling type="simple">
         <settings>
-          <text-style textColor="0,0,0,255" fontFamily="MS Shell Dlg 2" fontSizeUnit="Point" namedStyle="Normal" multilineHeight="1" fontWeight="50" fontSize="10" fontLetterSpacing="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontUnderline="0" fontStrikeout="0" useSubstitutions="0" previewBkgrdColor="#ffffff" fieldName="Nombre" fontItalic="0" textOpacity="1" fontWordSpacing="0" fontCapitals="0">
+          <text-style textColor="0,0,0,255" fontFamily="MS Shell Dlg 2" fontSizeUnit="Point" namedStyle="Normal" multilineHeight="1" fontWeight="50" fontSize="15" fontLetterSpacing="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontUnderline="0" fontStrikeout="0" useSubstitutions="0" previewBkgrdColor="#ffffff" fieldName="Nombre" fontItalic="0" textOpacity="1" fontWordSpacing="0" fontCapitals="0">
             <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferSize="1" bufferSizeUnits="MM" bufferDraw="0" bufferOpacity="1" bufferJoinStyle="128" bufferColor="255,255,255,255" bufferBlendMode="0"/>
             <background shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeOffsetX="0" shapeOffsetY="0" shapeType="0" shapeSizeUnit="MM" shapeSizeType="0" shapeRadiiUnit="MM" shapeBorderWidthUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeBlendMode="0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnit="MM" shapeOpacity="1" shapeFillColor="255,255,255,255" shapeBorderWidth="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeRotation="0" shapeSVGFile="" shapeBorderColor="128,128,128,255"/>
             <shadow shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0" shadowBlendMode="6" shadowOffsetDist="1" shadowColor="0,0,0,255" shadowDraw="0" shadowRadiusAlphaOnly="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowScale="100" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowOffsetAngle="135" shadowRadius="1.5" shadowOpacity="0.7"/>
@@ -4395,7 +4395,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmin="829554.1092095342464745" xmax="830010.22012339578941464" ymin="669256.06566890585236251" ymax="669754.06094858516007662"/>
+        <Extent xmin="829590.84883118141442537" xmax="830046.95974504295736551" ymin="669237.28764006390701979" ymax="669735.2829197432147339"/>
         <crs>
           <spatialrefsys>
             <proj4>+proj=tmerc +lat_0=4.596200416666666 +lon_0=-74.07750791666666 +k=1 +x_0=1000000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
